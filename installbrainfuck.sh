@@ -10,12 +10,13 @@ tag="v0.1"
 #Greetings
 echo
 ee "\e[93mThis script will install brainfuck in Termux."
-ee "\e[93mLibraries compiled by \e[32mJMRaichDev\e[93m, script written by \e[32mJMRaichDev\e[93m, interpreter writtent by \e[32mfabianishere\e[93m and can be found at  \e[32mhttps://github.com/fabianishere/brainfuck\e[93m."
+ee "\e[93mLibraries compiled by \e[32mJMRaichDev\e[93m, script written by \e[32mJMRaichDev\e[93m, interpreter writtent by \e[32mfabianishere\e[93m and can be found at \e[32mhttps://github.com/fabianishere/brainfuck\e[93m."
 echo
 
 if [ -e $PREFIX/bin/brainfuck ] || [ -e $PREFIX/lib/libbrainfuck.a ];
 then
   ee "\e[32mBrainfuck is already installed..."
+  rm -rf $HOME/installbrainfuck.sh
 else
   ee "\e[34mDownloading brainfuck..."
   

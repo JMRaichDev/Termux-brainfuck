@@ -15,6 +15,7 @@ echo
 if [ ! -e $PREFIX/bin/brainfuck ] || [ ! -e $PREFIX/lib/libbrainfuck.a ];
 then
   ee "\e[32mBrainfuck not installed..."
+  rm -rf $HOME/uninstallbrainfuck.sh
 else
 	ee "\e[32m[*] \e[34mRemoving files..."
 	rm -rf $PREFIX/bin/brainfuck
