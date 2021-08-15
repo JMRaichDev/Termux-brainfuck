@@ -5,7 +5,7 @@ set -e
 shopt -s expand_aliases
 alias ee='echo -e'
 
-tag="v1"
+tag="v0.1"
 
 #Greetings
 echo
