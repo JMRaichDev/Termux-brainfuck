@@ -10,7 +10,7 @@ Libraries compiled by [JMRaichDev](https://github.com/JMRaichDev), scripts writt
 
 To **install** brainfuck, open Termux and run the following command:
 
-```cd $HOME && pkg install wget && wget https://raw.githubusercontent.com/JMRaichDev/Termux-brainfuck/main/installbrainfuck.sh && bash installbrainfuck.sh```
+```cd $HOME && pkg install wget && pkg install libedit && wget https://raw.githubusercontent.com/JMRaichDev/Termux-brainfuck/main/installbrainfuck.sh && bash installbrainfuck.sh```
 
 To **uninstall** brainfuck, open Termux and run the following command:
 
