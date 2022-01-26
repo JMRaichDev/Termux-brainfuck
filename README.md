@@ -1,4 +1,4 @@
-# Termux-brainfuck
+# Termux-brainfuck (Discontinued)
 
 ### Information
 
